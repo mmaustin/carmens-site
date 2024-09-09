@@ -5,10 +5,10 @@ Button
 
 const Header = () => {
   return (
-    <div className="border border-blue-600 bg-chart-5 sticky top-0 opacity-70">
-      <Button variant="destructive" size="icon" className="border border-blue-700 text-red-700" >
-        press play
-      </Button>
+    <div className="border border-blue-600 bg-chart-5 sticky top-0 opacity-70 container">
+      <p>Some Stuff</p>
+      <p>Some Stuff</p>
+      <p>Some Stuff</p>
     </div>
   )
 }

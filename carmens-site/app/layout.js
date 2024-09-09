@@ -20,7 +20,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${newsReader.variable} antialiased`}
       >
-        {children}
+        <Header />
+        <main className="flex-grow">
+          {children}
+        </main>
       </body>
     </html>
   );
