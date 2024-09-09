@@ -5,7 +5,7 @@ Button
 
 const Header = () => {
   return (
-    <div className="border border-blue-600 bg-chart-5">
+    <div className="border border-blue-600 bg-chart-5 sticky top-0 opacity-70">
       <Button variant="destructive" size="icon" className="border border-blue-700 text-red-700" >
         press play
       </Button>
