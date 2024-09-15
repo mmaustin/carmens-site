@@ -22,9 +22,9 @@ const Navbar = () => {
   const pathName = usePathname();
 
   return (
-    <div className="flex justify-around w-full border">
-      <h3>
-        <Link href={'/'} className="text-3xl text-green-500 border capitalize" >CARMEN e</Link>
+    <div className="flex flex-col justify-center items-center w-full border rounded-full">
+      <h3 className="mb-8">
+        <Link href={'/'} className="text-3xl border capitalize " >CARMEN e</Link>
       </h3>
       <nav className="flex gap-8 border">
         {links.map((link, i) => {
