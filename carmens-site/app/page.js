@@ -5,18 +5,20 @@ import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col font-light">
-      <div className="h-40 font-light bg-red-400/70">
-        Carmen's Fabulous Website
+    <div className="w-full flex flex-col">
+      <div className="h-40 flex flex-col justify-center items-center">
+        <h1 className="text-3xl text-sky-600">
+          Uptown Menance
+        </h1>
       </div>
-      <h1 className="mb-28 capitalize">font weight</h1>
-      <h1 className="mb-28 capitalize">font weight</h1>
-      <h1 className="mb-28 capitalize">font weight</h1>
-      <h1 className="mb-28 capitalize">font weight</h1>
-      <h1 className="mb-28 capitalize">font weight</h1>
-      <h1 className="mb-28 capitalize">font weight</h1>
-      <h1 className="mb-28 capitalize">font weight</h1>
-      <h1 className="mb-28 capitalize">font weight</h1>
+      {/* <h2 className="mb-28 capitalize mx-10">font weight</h2>
+      <h2 className="mb-28 capitalize mx-10">font weight</h2>
+      <h2 className="mb-28 capitalize mx-10">font weight</h2>
+      <h2 className="mb-28 capitalize mx-10">font weight</h2>
+      <h2 className="mb-28 capitalize mx-10">font weight</h2>
+      <h2 className="mb-28 capitalize mx-10">font weight</h2>
+      <h2 className="mb-28 capitalize mx-10">font weight</h2>
+      <h2 className="mb-28 capitalize mx-10">font weight</h2> */}
     </div>
   );
 }

@@ -18,10 +18,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${newsReader.variable} antialiased flex flex-col min-h-screen`}
+        className={`${newsReader.variable} antialiased flex flex-col min-h-screen  bg-slate-300`}
       >
         <Header />
-        <main className=" bg-amber-50">
+        <main className="border">
           {children}
         </main>
       </body>
