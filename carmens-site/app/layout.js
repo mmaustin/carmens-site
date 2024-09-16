@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         className={`${newsReader.variable} antialiased flex flex-col min-h-screen`}
       >
         <Header />
-        <main className="border border-red-300">
+        <main className=" bg-amber-50">
           {children}
         </main>
       </body>

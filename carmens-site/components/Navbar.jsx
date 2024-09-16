@@ -22,7 +22,7 @@ const Navbar = () => {
   const pathName = usePathname();
 
   return (
-    <div className="flex flex-col justify-center items-center w-full border rounded-full">
+    <div className="flex flex-col justify-center items-center w-full border rounded-full backdrop-blur-xl">
       <h3 className="mb-8">
         <Link href={'/'} className="text-3xl border capitalize " >CARMEN e</Link>
       </h3>
