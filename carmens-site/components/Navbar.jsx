@@ -29,7 +29,7 @@ const Navbar = () => {
       <nav className="flex gap-8 border">
         {links.map((link, i) => {
           return (
-            <Link key={i} href={link.path} className={`${link.path === pathName && " text-green-500 no-underline"} capitalize font-medium hoover:text-accent text`}>{link.name}</Link>
+            <Link key={i} href={link.path} className={`${link.path === pathName && " text-green-500 no-underline font-light"} capitalize hoover:text-accent text font-light`}>{link.name}</Link>
           )
         })}
       </nav>
