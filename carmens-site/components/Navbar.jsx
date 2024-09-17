@@ -22,14 +22,14 @@ const Navbar = () => {
   const pathName = usePathname();
 
   return (
-    <div className="flex flex-col justify-center items-center w-full border rounded-full backdrop-blur-xl">
+    <div className="flex flex-col justify-center items-center w-full rounded-full backdrop-blur-xl">
       <h1 className="mb-8">
-        <Link href={'/'} className="text-3xl border capitalize text-sky-700 italic" >CARMEN e</Link>
+        <Link href={'/'} className="text-2xl font-serif uppercase" >carmen noboa espinal</Link>
       </h1>
-      <nav className="flex gap-8 border">
+      <nav className="flex gap-8">
         {links.map((link, i) => {
           return (
-            <Link key={i} href={link.path} className={`${link.path === pathName && " text-green-500 no-underline font-light"} capitalize hoover:text-accent text font-light`}>{link.name}</Link>
+            <Link key={i} href={link.path} className={`${link.path === pathName && " text-sky-700 no-underline font-light"} capitalize hoover:text-accent text font-light`}>{link.name}</Link>
           )
         })}
       </nav>
