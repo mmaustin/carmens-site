@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <header className="flex justify-center items-center sticky top-0 backdrop-blur-md h-36  bg-slate-200">
+    <header className="flex justify-center items-center sticky top-0 backdrop-blur-md h-36  bg-slate-200 z-50">
       <div className="container hidden lg:flex items-center gap-8 rounded-full">
         <Navbar />
       </div>
