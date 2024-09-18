@@ -27,9 +27,14 @@ const Navbar = () => {
 
   return (
     <div className="flex flex-col justify-center items-center w-full rounded-full backdrop-blur-xl">
-      <h1 className="mb-8">
-        <Link href={'/'} className="text-2xl font-serif uppercase" >carmen noboa espinal</Link>
-      </h1>
+      <div className="flex flex-row justify-between items-center mb-8 w-full border">
+        <h1 className="border">
+          <Link href={'/'} className="text-2xl font-serif uppercase" >carmen noboa espinal</Link>
+        </h1>
+        <div className="">
+          <p>social links</p>
+        </div>
+      </div>
       <nav className="flex gap-8">
         {links.map((link, i) => {
           return (
