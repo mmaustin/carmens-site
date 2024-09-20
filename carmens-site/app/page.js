@@ -6,6 +6,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import Link from "next/link";
 import Image from "next/image";
+import img from '@/public/gone-girl.jpg';
 
 
 export default function Home() {
