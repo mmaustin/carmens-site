@@ -1,4 +1,11 @@
+'use client';
+
 import Photo from "@/components/Photo";
+import { useState } from "react";
+import { BsArrowUpRight } from "react-icons/bs";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
+import Link from "next/link";
+import Image from "next/image";
 
 
 export default function Home() {
