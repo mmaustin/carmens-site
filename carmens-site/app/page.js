@@ -47,7 +47,7 @@ export default function Home() {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:gap-[30px]">
           <div className="w-full lg:w-[50%] lg:h-[460px] flex flex-col lg:justify-between order-2 lg:order-none">
-            <div className="flex flex-col gap-[30px] h-[50%] text-center">
+            <div className="flex flex-col gap-[30px] h-auto text-center lg:mt-12">
               <h2 className="text-[42px] font-semibold leading-none group-hover:text-accent transition-all duration-500 capitalize">{book?.title}</h2>
               <p className="">{book?.description}</p>
 
@@ -56,7 +56,7 @@ export default function Home() {
                 <Link href={book?.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="border border-sky-700 w-[50px] h-[50px] rounded-full  flex justify-center items-center group">
+                      <TooltipTrigger className="border border-sky-700 w-[50px] h-[50px] rounded-full flex justify-center items-center group">
                         <BsArrowUpRight className="rounded-full text-2xl text-sky-700 hover:text-slate-400" />
                       </TooltipTrigger>
                       <TooltipContent className="bg-sky-700">
@@ -68,7 +68,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="my-5 w-full lg:w-[50%]">
+          <div className=" w-full lg:w-[50%]">
             <Swiper spaceBetween={10} slidesPerView={1} className="lg:h-[420px] mb-12" onSlideChange={handleSlideChange}>
               {books.map((book, i) => {
                 return (
