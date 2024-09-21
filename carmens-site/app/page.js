@@ -9,6 +9,7 @@ import Image from "next/image";
 import img from '@/public/gone-girl.jpg';
 import BookSliderButtons from "@/components/BookSliderButtons";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css"
 
 const books = [
   {
@@ -50,16 +51,16 @@ export default function Home() {
               <h2 className="text-[42px] font-semibold leading-none group-hover:text-accent transition-all duration-500 capitalize">{book?.title}</h2>
               <p className="">{book?.description}</p>
 
-              <div className="border border-white"></div>
+              <div className="border border-sky-700 mb-4"></div>
               <div className="flex justify-center gap-4">
                 <Link href={book?.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
+                      <TooltipTrigger className="border border-sky-700 w-[50px] h-[50px] rounded-full  flex justify-center items-center group">
+                        <BsArrowUpRight className="rounded-full text-2xl text-sky-700 hover:text-slate-400" />
                       </TooltipTrigger>
-                      <TooltipContent>
-                        <p>{books.title}</p>
+                      <TooltipContent className="bg-sky-700">
+                        <p className="uppercase">{book.title}</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
