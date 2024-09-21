@@ -46,7 +46,7 @@ export default function Home() {
     <div className="min-h-[80vh] flex flex-col justify-center py-12 lg:px-0">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:gap-[30px]">
-          <div className="w-full lg:w-[50%] lg:h-[460px] flex flex-col lg:justify-between order-2 lg:order-none">
+          <div className="w-full lg:w-[50%] lg:h-[460px] flex flex-col lg:justify-between order-2">
             <div className="flex flex-col gap-[30px] h-auto text-center lg:mt-12">
               <h2 className="text-[42px] font-semibold leading-none group-hover:text-accent transition-all duration-500 capitalize">{book?.title}</h2>
               <p className="">{book?.description}</p>
