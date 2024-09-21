@@ -1,7 +1,6 @@
 import MobileNav from "./MobileNav";
 import Navbar from "./Navbar";
 
-
 const Header = () => {
   return (
     <header className="flex justify-center items-center sticky top-0 backdrop-blur-md h-28 bg-white z-50">

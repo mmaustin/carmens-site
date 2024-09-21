@@ -9,7 +9,7 @@ import Image from "next/image";
 import img from '@/public/gone-girl.jpg';
 import BookSliderButtons from "@/components/BookSliderButtons";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css"
+import "swiper/css";
 
 const books = [
   {
