@@ -30,7 +30,7 @@ const Navbar = () => {
     <div className="flex flex-col justify-center items-center w-full rounded-full backdrop-blur-xl">
       <div className="flex flex-row justify-between items-center mb-8 w-full">
         <h1 className="">
-          <Link href={'/'} className="text-2xl font-serif uppercase" >carmen noboa espinal</Link>
+          <Link href={'/'} className="text-2xl text-sky-700 font-serif uppercase" >carmen noboa espinal</Link>
         </h1>
         <div className="">
           <SocialMedia />

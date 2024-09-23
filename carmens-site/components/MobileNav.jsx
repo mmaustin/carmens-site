@@ -8,15 +8,19 @@ import { usePathname } from "next/navigation";
 
 const links = [
   {
-    name: "home",
-    path: '/'
+    name: "uptown menace",
+    path: '/uptown'
   },
   {
-    name: "books",
-    path: '/books'
+    name: "turning back time",
+    path: '/turning'
   },
   {
-    name: "about",
+    name: "abuelita & the magic stove",
+    path: '/abuelita'
+  },
+  {
+    name: "about carmen",
     path: '/about'
   }
 ];
@@ -54,7 +58,9 @@ const MobileNav = () => {
           </nav>
           {/* </ScrollArea> */}
         </SheetContent>
-        <h1 className="text-2xl font-serif uppercase">Carmen N.E.</h1>
+        <h1 className="">
+          <Link href={'/'} className="text-2xl text-sky-700 font-serif capitalize" >carmen n.e.</Link>
+        </h1>
       </div>
     </Sheet>
   )
