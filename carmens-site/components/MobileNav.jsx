@@ -28,7 +28,7 @@ const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger className="flex justify-center items-center">
-        <CiMenuFries className="text-[32px] text-green-500" />
+        <CiMenuFries className="text-[32px] text-sky-700" />
       </SheetTrigger>
       <SheetContent className="flex items-center flex-col mt-20">
         <SheetTitle >
@@ -41,16 +41,17 @@ const MobileNav = () => {
             Mobile Menu Description
           </VisuallyHidden.Root>
         </SheetDescription>
-        {/* <ScrollArea className="h-32 w-48 rounded-md border border-green-500 mt-10"> */}
+        {/* <ScrollArea className="h-32 w-48 rounded-md border border-sky-700 mt-10"> */}
         <nav className="mt-2 flex flex-col justify-center items-center gap-8">
           {links.map((link, i) => {
             return (
               <SheetClose key={i} asChild>
-                <Link key={i} href={link.path} className={`${link.path === pathName && "text-green-500 border-b-2 border-green-500"} text-xl capitalize hover:text-green-500 transition-all`}>{link.name}</Link>
+                <Link key={i} href={link.path} className={`${link.path === pathName && "text-sky-700 border-b-2 border-sky-700"} text-xl capitalize hover:text-sky-700 transition-all`}>{link.name}</Link>
               </SheetClose>
             )
           })}
         </nav>
+
         {/* </ScrollArea> */}
       </SheetContent>
     </Sheet>
