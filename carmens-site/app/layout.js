@@ -1,13 +1,20 @@
-import { Newsreader } from "next/font/google"
+// import { Newsreader } from "next/font/google"
+import { JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 
-const newsReader = Newsreader({
+// const newsReader = Newsreader({
+//   subsets: ["latin"],
+//   weight: ["200", "300", "400", "500", "600", "700", "800"],
+//   variable: "--font-newsReader"
+// });
+
+const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800"],
-  variable: "--font-newsReader"
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  variable: "--font-jetbrainsMono"
 });
 
 export const metadata = {
@@ -19,7 +26,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${newsReader.variable} antialiased flex flex-col min-h-screen bg-amber-50/80`}
+        className={`${jetBrainsMono.variable} antialiased flex flex-col min-h-screen bg-amber-50/80`}
       >
         <Header />
         <main className="flex-grow">

@@ -51,7 +51,7 @@ const MobileNav = () => {
             {links.map((link, i) => {
               return (
                 <SheetClose key={i} asChild>
-                  <Link key={i} href={link.path} className={`${link.path === pathName && "text-sky-700 border-b-2 border-sky-700"} text-xl capitalize hover:text-sky-700 transition-all`}>{link.name}</Link>
+                  <Link key={i} href={link.path} className={`${link.path === pathName && " text-sky-700 text-xs no-underline font-light"} uppercase hover:text-sky-700 text-xs text font-light`}>{link.name}</Link>
                 </SheetClose>
               )
             })}
