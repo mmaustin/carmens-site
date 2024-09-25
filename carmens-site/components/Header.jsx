@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <header className="flex justify-center items-center sticky top-0 backdrop-blur-md h-28 bg-white z-50">
+    <header className="flex justify-center items-center opacity-95 sticky top-0 backdrop-blur-md h-28 bg-white z-50">
       <div className="container hidden md:flex items-center gap-8 rounded-full">
         <Navbar />
       </div>

@@ -3,11 +3,11 @@
 import Image from "next/image";
 import img from "@/public/gone-girl.jpg"
 
-const Photo = () => {
+const CarmenPhoto = () => {
   return (
     <div className="w-full h-full relative">
       <div
-        className="w-[298px] h-[350px] mix-blend relative backdrop-blur-md z-0">
+        className="w-[250px] h-[250px] mix-blend relative backdrop-blur-md z-0">
         <Image
           src={img}
           fill
@@ -20,4 +20,4 @@ const Photo = () => {
     </div>
   )
 }
-export default Photo;
+export default CarmenPhoto;

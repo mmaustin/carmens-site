@@ -10,6 +10,7 @@ import img from '@/public/gone-girl.jpg';
 import BookSliderButtons from "@/components/BookSliderButtons";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import AboutCarmen from "@/components/AboutCarmen";
 
 const books = [
   {
@@ -43,7 +44,11 @@ export default function Home() {
   }
 
   return (
+    // <div className="flex flex-col justify-center items-center">
     <div className="min-h-[80vh] flex flex-col justify-center py-12 lg:px-0">
+      {/* <div className="bg-red-400/80">
+        <AboutCarmen />
+      </div> */}
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row lg:gap-[30px]">
           <div className="w-full lg:w-[50%] lg:h-[460px] flex flex-col lg:justify-between order-2">
@@ -97,5 +102,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+    // </div>
   );
 }
