@@ -3,6 +3,7 @@ import { Newsreader } from "next/font/google"
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import AboutCarmen from "@/components/AboutCarmen";
 
 
 const newsReader = Newsreader({
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
         className={`${newsReader.variable} antialiased flex flex-col min-h-screen bg-amber-50/80`}
       >
         <Header />
+        <AboutCarmen />
         <main className="flex-grow">
           {children}
         </main>
