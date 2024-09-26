@@ -1,6 +1,6 @@
-import SocialMedia from "./SocialMedia";
 import { FaCopyright } from "react-icons/fa";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import FooterSocialMedia from "./FooterSocialMedia";
 
 const Footer = () => {
 
@@ -20,7 +20,7 @@ const Footer = () => {
             <p className=" text-white">McCray Austin</p>
           </div>
           <div className="">
-            <SocialMedia />
+            <FooterSocialMedia />
           </div>
         </div>
       </div>
