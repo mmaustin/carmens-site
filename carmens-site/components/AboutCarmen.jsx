@@ -17,7 +17,7 @@ const AboutCarmen = () => {
         <div className="">
           <CarmenPhoto />
         </div>
-        <p className="w-[250px] h-[250px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ipsa aliquid debitis, sequi aperiam quae iusto temporibus labore accusantium praesentium fuga doloremque. Optio praesentium ab quis suscipit inventore? Dolorem, commodi.</p>
+        <p className="w-[300px] h-[250px] text-white mt-14">Carmen is the bestest person in the whole wide world.  She's the bestest mother, wife, author, exercise instructor, friend, Knicks fan--sadly--and the bestest everything else too!  I suggest you buy all of her books, cause you don't want her folks from the DR to come knocking on your door!.</p>
       </div>
     )
   };
