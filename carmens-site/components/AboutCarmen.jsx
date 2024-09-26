@@ -9,7 +9,7 @@ const AboutCarmen = () => {
 
   if (pathName === '/') {
     return (
-      <div className="h-auto bg-red-400/80 flex flex-row justify-around items-center">
+      <div className="h-[275px] bg-red-400/65 flex flex-row justify-around items-center">
         {/* <div className="border">
         </div>
         <div className="border">
