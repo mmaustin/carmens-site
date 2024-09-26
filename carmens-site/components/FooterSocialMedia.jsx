@@ -12,7 +12,7 @@ const FooterSocialMedia = () => {
   return (
     <div className="flex gap-6 mb-4 md:mb-0">{
       socials.map((media, i) => {
-        return <Link href={media.path} key={i} className="w-6 h-6 border border-white rounded-full flex justify-center items-center text-white text-base hover:bg-primary hover:text-white hover:transition-all duration-500" target="_blank" >{media.icon}</Link>
+        return <Link href={media.path} key={i} className="w-6 h-6 border border-white rounded-full flex justify-center items-center text-white text-base hover:bg-red-700/60 hover:text-white hover:transition-all duration-500" target="_blank" >{media.icon}</Link>
       })
     }</div>
   )
