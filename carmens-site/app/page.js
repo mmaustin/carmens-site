@@ -53,18 +53,18 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row lg:gap-[30px]">
           <div className="w-full lg:w-[50%] lg:h-[460px] flex flex-col lg:justify-between order-2">
             <div className="flex flex-col gap-[30px] h-auto text-center lg:mt-12">
-              <h2 className="text-[42px] font-semibold leading-none group-hover:text-accent transition-all duration-500 capitalize">{book?.title}</h2>
-              <p className="">{book?.description}</p>
+              <h2 className="text-[42px] font-serif leading-none transition-all duration-500 capitalize">{book?.title}</h2>
+              <p className="font-light">{book?.description}</p>
 
-              <div className="border border-sky-700 mb-4"></div>
+              <div className="border border-black/50 mb-4"></div>
               <div className="flex justify-center gap-4">
                 <Link href={book?.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="border border-sky-700 w-[50px] h-[50px] rounded-full flex justify-center items-center group">
-                        <BsArrowUpRight className="rounded-full text-2xl text-sky-700 hover:text-slate-400" />
+                      <TooltipTrigger className="border border-black/50 w-[50px] h-[50px] rounded-full flex justify-center items-center group">
+                        <BsArrowUpRight className="rounded-full text-2xl text-black/50 hover:text-red-500/60" />
                       </TooltipTrigger>
-                      <TooltipContent className="bg-sky-700">
+                      <TooltipContent className="bg-red-500/60">
                         <p className="uppercase">{book.title}</p>
                       </TooltipContent>
                     </Tooltip>
@@ -82,7 +82,7 @@ export default function Home() {
 
                       <div className="absolute top-0 bottom-0 w-full bg-black/10 z-20"></div>
 
-                      <div className="relative w-full h-full">
+                      <div className="relative w-full h-full border">
                         <Image
                           src={book.image}
                           fill
@@ -96,7 +96,7 @@ export default function Home() {
                   </SwiperSlide>
                 )
               })}
-              <BookSliderButtons containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] lg:bottom-0 z-20 w-full justify-between lg:w-max lg:justify-none" btnStyles="bg-accent hoover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all" />
+              <BookSliderButtons containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] lg:bottom-0 z-20 w-full justify-between lg:w-max lg:justify-none" btnStyles="bg-accent hoover:bg-accent-hover text-black/50 text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all" />
             </Swiper>
           </div>
         </div>
