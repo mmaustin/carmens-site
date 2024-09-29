@@ -73,7 +73,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" w-full lg:w-[50%]">
+          <div className=" w-full lg:w-[50%] border-4 border-red-500">
             <Swiper spaceBetween={10} slidesPerView={1} className="lg:h-[420px] mb-12" onSlideChange={handleSlideChange}>
               {books.map((book, i) => {
                 return (
