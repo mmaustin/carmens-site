@@ -7,7 +7,7 @@ const CarmenPhoto = () => {
   return (
     <div className="w-full h-full relative">
       <div
-        className="mt-10 md:mt-0 w-[200px] md:w-[275px] h-[250px] mix-blend relative backdrop-blur-md z-0">
+        className=" w-[200px] md:w-[275px] h-[250px] mix-blend relative backdrop-blur-md z-0">
         <Image
           src={img}
           fill
