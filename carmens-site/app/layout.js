@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${newsReader.variable} antialiased flex flex-col min-h-screen bg-amber-50/80`}
+        className={`${newsReader.variable} antialiased flex flex-col min-h-screen`}
       >
         <Header />
         <AboutCarmen />

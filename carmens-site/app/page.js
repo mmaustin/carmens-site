@@ -56,13 +56,13 @@ export default function Home() {
               <h2 className="text-[42px] font-serif leading-none transition-all duration-500 capitalize">{book?.title}</h2>
               <p className="font-light">{book?.description}</p>
 
-              <div className="border border-black/50 mb-4"></div>
+              <div className="border border-black mb-4"></div>
               <div className="flex justify-center gap-4">
                 <Link href={book?.live} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="border border-black/50 w-[50px] h-[50px] rounded-full flex justify-center items-center group">
-                        <BsArrowUpRight className="rounded-full text-2xl text-black/50 hover:text-red-500/60" />
+                      <TooltipTrigger className="border border-black w-[50px] h-[50px] rounded-full flex justify-center items-center group">
+                        <BsArrowUpRight className="rounded-full text-2xl text-black hover:text-red-500/60" />
                       </TooltipTrigger>
                       <TooltipContent className="bg-red-500/60">
                         <p className="uppercase">{book.title}</p>
@@ -96,7 +96,7 @@ export default function Home() {
                   </SwiperSlide>
                 )
               })}
-              <BookSliderButtons containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] lg:bottom-0 z-20 w-full justify-between lg:w-max lg:justify-none" btnStyles="bg-accent hoover:bg-accent-hover text-black/50 text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all" />
+              <BookSliderButtons containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] lg:bottom-0 z-20 w-full justify-between lg:w-max lg:justify-none" btnStyles="bg-accent hoover:bg-accent-hover text-black text-[22px] w-[44px] h-[44px] flex justify-center items-center transition-all" />
             </Swiper>
           </div>
         </div>
