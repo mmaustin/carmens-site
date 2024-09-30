@@ -32,9 +32,9 @@ const MobileNav = () => {
   return (
     <Sheet>
       <div className="w-full flex flex-row justify-around items-center">
-        <SheetTrigger className="flex justify-center items-center">
-          <CiMenuFries className="text-[32px] text-red-500/100" />
-        </SheetTrigger>
+        <h1 className="">
+          <Link href={'/'} className="text-2xl text-red-600/100 font-serif capitalize" >carmen</Link>
+        </h1>
         <SheetContent className="flex items-center flex-col mt-20">
           <SheetTitle >
             <VisuallyHidden.Root>
@@ -58,9 +58,9 @@ const MobileNav = () => {
           </nav>
           {/* </ScrollArea> */}
         </SheetContent>
-        <h1 className="">
-          <Link href={'/'} className="text-2xl text-red-500/100 font-serif capitalize" >carmen</Link>
-        </h1>
+        <SheetTrigger className="flex justify-center items-center">
+          <CiMenuFries className="text-[32px] text-red-500/60" />
+        </SheetTrigger>
       </div>
     </Sheet>
   )
