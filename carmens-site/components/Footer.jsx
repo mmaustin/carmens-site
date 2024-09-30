@@ -15,9 +15,9 @@ const Footer = () => {
             <p className="hover:text-red-700/60"><a href="tel:19736340148"><FaPhoneAlt /></a></p>
           </div>
           <div className="flex flex-row justify-center items-center gap-2 mb-4 md:mb-0">
-            <FaCopyright className="rounded-lg" />
-            <p className=" text-white">{year}</p>
-            <p className=" text-white">McCray Austin</p>
+            <FaCopyright className="rounded-lg w-4 h-4 text-white/70" />
+            <p className="text-xs text-white">{year}</p>
+            <p className="text-xs text-white">McCray Austin</p>
           </div>
           <div className="">
             <FooterSocialMedia />
