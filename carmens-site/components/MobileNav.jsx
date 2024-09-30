@@ -33,7 +33,7 @@ const MobileNav = () => {
     <Sheet>
       <div className="w-full flex flex-row justify-around items-center">
         <SheetTrigger className="flex justify-center items-center">
-          <CiMenuFries className="text-[32px] text-sky-700" />
+          <CiMenuFries className="text-[32px] text-red-500/100" />
         </SheetTrigger>
         <SheetContent className="flex items-center flex-col mt-20">
           <SheetTitle >
@@ -51,7 +51,7 @@ const MobileNav = () => {
             {links.map((link, i) => {
               return (
                 <SheetClose key={i} asChild>
-                  <Link key={i} href={link.path} className={`${link.path === pathName && " text-sky-700 text-xs no-underline font-light"} uppercase hover:text-sky-700 text-xs text font-light`}>{link.name}</Link>
+                  <Link key={i} href={link.path} className={`${link.path === pathName && " text-red-500/100 text-xs no-underline font-light"} uppercase hover:text-red-500/100 text-xs text font-light`}>{link.name}</Link>
                 </SheetClose>
               )
             })}
@@ -59,7 +59,7 @@ const MobileNav = () => {
           {/* </ScrollArea> */}
         </SheetContent>
         <h1 className="">
-          <Link href={'/'} className="text-2xl text-sky-700 font-serif capitalize" >carmen n.e.</Link>
+          <Link href={'/'} className="text-2xl text-red-500/100 font-serif capitalize" >carmen</Link>
         </h1>
       </div>
     </Sheet>
