@@ -1,10 +1,11 @@
+'use client';
+
 import Photo from "@/components/Photo";
-
-
+import { useState } from "react";
 
 const UptownMenace = () => {
   return (
-    <div className="h-auto w-full my-10  mx-6 gap-8 flex flex-wrap justify-around items-center border-t-4">
+    <div className="h-auto w-full my-10 gap-8 flex flex-wrap justify-around items-center">
       <div className="">
         <Photo />
       </div>
