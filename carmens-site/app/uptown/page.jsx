@@ -1,6 +1,7 @@
 'use client';
 
 import Photo from "@/components/Photo";
+import { useState } from "react";
 
 
 const UptownMenace = () => {
