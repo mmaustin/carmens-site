@@ -3,11 +3,16 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
 const uptownMenace = [
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
-  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!"
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
 ];
 
 const UptownMenace = () => {
@@ -17,7 +22,23 @@ const UptownMenace = () => {
       <div className="">
         <Photo />
       </div>
-      <p className="w-[250px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est nostrum accusamus amet ut eaque minima perferendis quae ipsa labore, rem mollitia magnam omnis veniam magni temporibus facilis dolor officia. Eaque.</p>
+      <Carousel className="w-1/2 max-w-sm border">
+        <CarouselContent>
+          {uptownMenace.map((page, i) => (
+            <CarouselItem key={i}>
+              <div className="p-1">
+                <Card>
+                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                    <span className="text-base font-serif">{page}</span>
+                  </CardContent>
+                </Card>
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+        <CarouselPrevious />
+        <CarouselNext />
+      </Carousel>
     </div>
   )
 }
