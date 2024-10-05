@@ -22,12 +22,12 @@ const UptownMenace = () => {
       <div className="">
         <Photo />
       </div>
-      <Carousel className="w-1/2 max-w-sm border">
+      <Carousel className="w-1/2 max-w-sm">
         <CarouselContent>
           {uptownMenace.map((page, i) => (
             <CarouselItem key={i}>
               <div className="p-1">
-                <Card>
+                <Card className="">
                   <CardContent className="flex aspect-square items-center justify-center p-6">
                     <span className="text-base font-serif">{page}</span>
                   </CardContent>
