@@ -16,19 +16,19 @@ const books = [
     title: "uptown menace",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores sed vel quis at ab.Vero incidunt dolore, repellendus aperiam officiis vitae doloremque magni deserunt laborum, modi recusandae labore unde praesentium!",
     image: img,
-    live: "https://github.com",
+    live: "https://google.com",
   },
   {
     title: "turning back time",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores sed vel quis at ab.Vero incidunt dolore, repellendus aperiam officiis vitae doloremque magni deserunt laborum, modi recusandae labore unde praesentium!",
     image: img,
-    live: "https://github.com",
+    live: "https://google.com",
   },
   {
     title: "abuelita . . . ",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Asperiores sed vel quis at ab.Vero incidunt dolore, repellendus aperiam officiis vitae doloremque magni deserunt laborum, modi recusandae labore unde praesentium!",
     image: img,
-    live: "https://github.com",
+    live: "https://google.com",
   },
 ];
 
