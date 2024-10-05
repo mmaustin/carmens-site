@@ -1,8 +1,13 @@
-'use client';
-
 import Photo from "@/components/Photo";
-import { useState } from "react";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 
+const uptownMenace = [
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!",
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia cum minima modi eaque vitae. Quidem, autem maxime? Ratione assumenda provident, exercitationem eligendi quas, deleniti officia praesentium suscipit reprehenderit, neque vel!"
+];
 
 const UptownMenace = () => {
 
