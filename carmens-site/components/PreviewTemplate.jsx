@@ -3,7 +3,8 @@ import { Card, CardContent } from "./ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 
 
-const PreviewTemplate = (previewArray) => {
+const PreviewTemplate = ({ previewArray }) => {
+
   return (
     <div className="h-auto w-full my-10 gap-8 flex flex-wrap justify-around items-center">
       <div className="">
