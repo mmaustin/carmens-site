@@ -7,7 +7,7 @@ const Photo = () => {
   return (
     <div className="w-full h-full relative">
       <div
-        className="w-[325px] h-[350px] mix-blend relative backdrop-blur-md z-0">
+        className="w-[250px] h-[325px] md:w-[325px] md:h-[350px] mix-blend relative backdrop-blur-md z-0">
         <Image
           src={img}
           fill
